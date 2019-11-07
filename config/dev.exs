@@ -3,7 +3,7 @@ use Mix.Config
 # Configure your database
 config :brutos, Brutos.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "12345",
   database: "brutos_dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
